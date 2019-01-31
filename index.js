@@ -1,4 +1,4 @@
-const newVar = [{
+const array = [{
 	"userId": 1,
 	"id": 1,
 	"title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
@@ -30,6 +30,5 @@ const newVar = [{
 	"body": "voluptatem quisquam iste\nvoluptatibus natus officiis facilis dolorem\nquis quas ipsam\nvel et voluptatum in aliquid"
 }];
 
-function remove(userId5, ) {
+const newArray = array.filter(element => element.userId !==5)
 
-}
