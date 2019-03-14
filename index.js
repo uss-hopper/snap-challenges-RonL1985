@@ -6,15 +6,15 @@ fetch('examples/example.json')
 		// Do stuff with the response
 	})
 	.catch(function(error) {
-		console.log('Looks like there was a problem: \n', error);
+		console.log('Shit It Fucked Up Bro!: \n', error);
 	});
 // We can safely use fetch from now on
 
-var json = '{"result":true, "count":42}';
+var json = '{"result":true}';
 obj = JSON.parse(json);
 
 console.log(obj.count);
-// expected output: 42
+// expected output:
 
 console.log(obj.result);
 // expected output: true
